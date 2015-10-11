@@ -1,4 +1,4 @@
-#Set wd: setwd("/Users/khispa/ExData_Plotting1")
+#Set your working directory: setwd("yourworkingdirectory")
 #Read the dataset, that must be in wd
 electric <- read.delim("household_power_consumption.txt", header = TRUE, sep = ";", dec = ".",stringsAsFactors=FALSE,na.strings = "NA")
 #Correct the data types
